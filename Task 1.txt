@@ -1,0 +1,19 @@
+
+Difference between HTTP1.1 vs HTTP2
+
+
+
+HTTP 1.1                                                     HTTP 2
+
+
+1. HTTP 1.1 is introduced in 1997                           HTTP 2 is introduced in 2015 Feb
+
+2. Web browser makes several parrallel request              Web browser makes one TCB connection with 
+   for page contents.                                       request for all page contents.
+
+3. It works on the texual formats.                          It works on the binary protocols.
+
+4. It uses requests resource Inlining for                   It uses PUSH frame by server that 
+   use getting multiple pages                               collects all multiple pages
+
+5. It compresses data by itself                             It Uses HPACK for data compression

@@ -1,0 +1,38 @@
+
+Objects and its internal representation in JS
+
+
+
+1. In JavaScript, it’s most important data-type and almost everything is an object.
+
+2. It is used to store various keyed collections and Objects can be 
+   created using the Object() constructor or the object initializer / literal syntax.
+ 
+  Ex :syntax of object is  Key : value 
+        const person = {
+        firstName: "Gokul",
+        lastName: "Ram",
+        age: 20
+        };
+
+3. object may contain any combination of these primitive data-types and reference data-types
+
+
+primitive data-types : They all store a single value each (depending on their types)
+
+        JavaScript 7 types of primitive data types are
+        1.string
+        2.number
+        3.boolean
+        4.null
+        5.undefined
+        6.symbol
+        7.bigint
+
+
+Reference data-types: They do not have a fixed size
+
+        JavaScript 3 types of Reference values that include of
+        1.Array
+        2.Object
+        3.Function
